@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"github.com/kimkokubun/go-api-rest/src/database"
 	"github.com/kimkokubun/go-api-rest/src/models"
 	"github.com/kimkokubun/go-api-rest/src/routes"
 )
@@ -12,6 +13,7 @@ func main() {
 		{Id: 2, Nome: "PERSONALIDADE 2", Historia: "Historia 2"},
 	}
 
+	database.ConectaDB()
 	fmt.Println("Iniciando o servidor Rest com GO")
 	routes.HandleRequest()
 }
