@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"github.com/kimkokubun/go-api-rest/models"
-	"github.com/kimkokubun/go-api-rest/routes"
+	"github.com/kimkokubun/go-api-rest/src/models"
+	"github.com/kimkokubun/go-api-rest/src/routes"
 )
 
 func main() {
